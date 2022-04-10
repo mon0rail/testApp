@@ -20,4 +20,12 @@
         </activity>
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET">
+    </uses-permission>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+    </uses-permission>
+
+    <meta-data android:name="com.kakao.sdk.AppKey" android:value="73d3976e9a454ecd5d28420a49cf1ff0"/>
+
 </manifest>
